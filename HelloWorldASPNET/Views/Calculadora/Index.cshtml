@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Bem vindo a calculadora MVC</h1>
+
+ <form asp-action="Calcular" asp-controller="Calculadora" method="post">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Primeiro Número</label>
+    <input type="number" class="form-control" name="number1">
+  </div>
+    <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Segundo Número</label>
+    <input type="number" class="form-control" name="number2">
+  </div>
+  <button type="submit" class="btn btn-primary">Calcular</button>
+</form>
